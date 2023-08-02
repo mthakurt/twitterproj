@@ -8,7 +8,7 @@ class Database {
     }
 
     connect() {
-        mongoose.connect("mongodb+srv://mihikat:mongoDBpass@cluster0.lxdk4do.mongodb.net/?retryWrites=true&w=majority")
+        mongoose.connect("link hidden for security reasons")
         .then(() =>  {
             console.log("Database connection successful");
         })
